@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+	background: url(img/ert.jpg) no-repeat center center / cover;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: white;
+    margin-left: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.nav li a:hover:not(.active) {
+    color: #7890A3
+}
+
+.nav .active {
+    color: #ffffff;
+}
+
+.nav #logo {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 100px;
+    height: 110px;
+}
+
+.section1 {
+    width: 100%;
+    height: full;
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 650px;
+}
+.typewriter h1 {
+
+    color: #fff;
+    font-family: ambarella-regular;
+    position: absolute;
+    top: 360px;
+    left: 250px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 4.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  .section2 {
+    width: 100%;
+    height: full;
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+}
+.page-title{ 
+    display: block;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left:150px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* pozitcioni*/
+  .container {
+    position: relative;
+  }
+  
+   
+  .mySlides {
+    display: none;
+  }
+  
+  /* pointeri */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* butonat Next & previous */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.footer{ 
+    left:0px;
+    font-family: 'HighlightText ', Times, serif;
+    width: 100%;
+    height: full;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+	margin-top:10%;
+}
+.articles {
+  color:black;
+} 
+.articles:hover {
+  color: royalblue;
+  text-decoration: none;
+}
+table {
+ border-collapse: collapse;
+ width: 100%;
+}
+caption {
+ caption-side: bottom;
+}
+th, td {
+ text-align: center;
+ padding: 8px;
+}
+tr:nth-child(even){
+background-color: black;
+}
+tr:nth-child(odd){
+background-color: red;
+}
+th {
+ background-color: black;
+ color: white;
+}
+#myform {
+ border-radius: 5px;
+ background-color: orange;
+ padding: 30px;
+}
+#mybutton{
+ background-color: black;
+ font-weight: bold,italic;
+ font-size: 1.5em;
+}
+input, select {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ background-color: white;
+ color: white;
+}
+input:focus {
+ background-color: white;
+ color: black;
+}
+#fraza {
+	text-align:center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 25px;
+	margin-top:100px;
+	align-items:center;
+	font-family: Yellowtail, cursive;
+	font-size:40px;
+  }
+ 
